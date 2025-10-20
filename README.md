@@ -1,3 +1,7 @@
+**Contributor:** k4niz
+
+
+
 FactReal — AI Backend for Bias/Misinformation Detection
 =======================================================
 
@@ -5,6 +9,7 @@ FactReal is an AI-powered backend system that detects bias, misinformation, and 
 
 - Tech: FastAPI, Hugging Face Transformers
 - Targets: Hacktoberfest-friendly, modular, easy to extend
+
 
 Features
 --------
