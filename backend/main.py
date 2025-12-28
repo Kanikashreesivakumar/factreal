@@ -23,7 +23,7 @@ app.include_router(classify_router)
 app.include_router(explain_router)
 
 
-# Convenience: allow POST / to behave like /classify for ease of testing
+
 _root_classify_controller = ClassifyController()
 
 

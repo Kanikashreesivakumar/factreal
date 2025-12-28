@@ -17,7 +17,7 @@ logger = get_logger(__name__)
 
 @dataclass
 class FactCheckResult:
-    veracity: str  # e.g., "unknown", "supported", "disputed"
+    veracity: str 
     sources: List[str]
     notes: Optional[str] = None
 
