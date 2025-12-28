@@ -82,9 +82,9 @@ class FactChecker:
                     page = wikipedia.page(title, auto_suggest=False)
                     sources.append(page.url)
                     return FactCheckResult(veracity="supported", sources=sources)
-                except Exception:  # noqa: BLE001 for robustness
+                except Exception: 
                     pass
-        except Exception as e:  # noqa: BLE001
+        except Exception as e: 
             logger.info("Wikipedia check unavailable: %s", str(e))
 
         return FactCheckResult(veracity="unknown", sources=sources)
